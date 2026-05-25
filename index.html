@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body onload="checarSesion();" style="background-color: #0a1628;">
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="container mt-5 m-auto text-white p-4 rounded text-center" style="background-color: #111d35; border: 1px solid #1e3a5f; max-width: 400px;">
+            <h2>Login</h2>
+                <form id="formIniciar">
+                    <div class="mb-3">
+                        <label for="correo" class="form-label" style="color: #7ea8d4;">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="correo" name="correo" required style="background-color: #0d1e36; border: 1px solid #1e3a5f; color: #e8f0f8;">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label" style="color: #7ea8d4;">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" required style="background-color: #0d1e36; border: 1px solid #1e3a5f; color: #e8f0f8;">
+                    </div>
+                    <button type="button" class="btn btn-danger w-100 m-auto" onclick="loginUsuario()" style="background: linear-gradient(180deg, #1a9bff 0%, #0070dd 100%); border: none; color: #fff;">Login</button>
+                    <a href="registros.html" class="btn btn-link" style="color: #148eff;">Registrarse</a>
+                </form>
+    </div>
+    
+</div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/funciones.js"></script>
+    <script src="assets/js/appLogin.js"></script>
+    
+
+</body>
+</html>
